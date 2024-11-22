@@ -1,14 +1,3 @@
-[Requirements]
-Make sure to have the `pandas` library installed. You can install it via pip if you haven't done so:
-
-```
-bash
-pip install panda
-
-```
-
-_____________________________________________________________________________________________________________
-
 import pandas as pd
 
 def clean_data_csv(input_file, output_file):
