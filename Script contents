@@ -1,8 +1,11 @@
 [Requirements]
 Make sure to have the `pandas` library installed. You can install it via pip if you haven't done so:
-<code>bash
+
+```
+bash
 pip install panda
-</code>
+
+```
 
 _____________________________________________________________________________________________________________
 
