@@ -1,4 +1,4 @@
-# PythonDataCleaningScript
+# Python Data Cleaning Script
 A python script written to clean data in a csv file. 
 
 Common data cleaning tasks include:
@@ -11,6 +11,18 @@ This is a general-purpose Python script that performs some basic cleaning operat
 1. Remove rows with missing values.
 2. Remove duplicate rows.
 3. Standardize string data by converting it to lowercase.
+
+*Requirements*
+
+Make sure to have the `pandas` library installed. You can install it via pip if you haven't done so:
+
+```
+bash
+pip install panda
+
+```
+
+
 
 
 
