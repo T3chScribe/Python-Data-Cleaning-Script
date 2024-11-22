@@ -12,7 +12,7 @@ This is a general-purpose Python script that performs some basic cleaning operat
 2. Remove duplicate rows.
 3. Standardize string data by converting it to lowercase.
 
-*Requirements*
+<h3>*Requirements*</h3>
 
 Make sure to have the `pandas` library installed. You can install it via pip if you haven't done so:
 
