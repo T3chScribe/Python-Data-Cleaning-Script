@@ -1,0 +1,27 @@
+import pandas as pd
+
+def clean_data_csv(input_file, output_file):
+    # Read the CSV file into a DataFrame
+    df = pd.read_csv(input_file)
+
+    # Step 1: Remove rows with missing values
+    df.dropna(inplace=True)
+
+    # Step 2: Remove duplicate rows
+    df.drop_duplicates(inplace=True)
+
+    # Step 3: Standardize string data (convert to lowercase)
+    for column in df.select_dtypes(include=['object']).columns:
+        df[column] = df[column].str.lower().str.strip()  # Convert to lowercase and strip whitespace
+
+    # Step 4: Write the cleaned DataFrame to a new CSV file
+    df.to_csv(output_file, index=False)
+
+# Define the input and output file names
+input_file = 'data.csv'
+output_file = 'data_cleaned.csv'
+
+# Execute the clean_data_csv function
+clean_data_csv(input_file, output_file)
+
+print("Data cleaning completed. Cleaned data saved to:", output_file)
