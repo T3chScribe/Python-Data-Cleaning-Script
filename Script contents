@@ -1,3 +1,11 @@
+[Requirements]
+Make sure to have the `pandas` library installed. You can install it via pip if you haven't done so:
+<code>bash
+pip install panda
+</code>
+
+_____________________________________________________________________________________________________________
+
 import pandas as pd
 
 def clean_data_csv(input_file, output_file):
@@ -25,3 +33,10 @@ output_file = 'data_cleaned.csv'
 clean_data_csv(input_file, output_file)
 
 print("Data cleaning completed. Cleaned data saved to:", output_file)
+
+______________________________________________________________________________________________________________
+
+[Usage]: 
+
+1. Save the script to a Python file, for example, `clean_data.py`.
+2. Run the script in an environment where you have the `data.csv` file, or applicable file name, available.
