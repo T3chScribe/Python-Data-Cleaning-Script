@@ -19,7 +19,6 @@ Make sure to have the `pandas` library installed. You can install it via pip if 
 ```
 bash
 pip install panda
-
 ```
 
 
