@@ -8,10 +8,10 @@
    - We read the `data.csv` file into a Pandas DataFrame named `df`.
 
 4. *Data Cleaning Steps*:
-   - Remove Missing Values: We use `df.dropna(inplace=True)` to remove any rows that contain missing values.
-   - Remove Duplicates: We use `df.drop_duplicates(inplace=True)` to remove any duplicate rows from the DataFrame.
-   - Standardize String Data: We convert all string columns to lowercase and strip leading/trailing whitespace using `str.lower()` and `str.strip()`.
+   - Remove Missing Values: Use `df.dropna(inplace=True)` to remove any rows that contain missing values.
+   - Remove Duplicates: Use `df.drop_duplicates(inplace=True)` to remove any duplicate rows from the DataFrame.
+   - Standardize String Data: Convert all string columns to lowercase and strip leading/trailing whitespace using `str.lower()` and `str.strip()`.
 
-5. Writing the Cleaned Data: We save the cleaned DataFrame to a new CSV file named `data_cleaned.csv` using `df.to_csv()`.
+5. Writing the Cleaned Data: Save the cleaned DataFrame to a new CSV file named `data_cleaned.csv` using `df.to_csv()`.
 
-6. Execution: We call the `clean_data_csv` function with the specified input and output file names and print a success message.
+6. Execution: Call the `clean_data_csv` function with the specified input and output file names and print a success message.
